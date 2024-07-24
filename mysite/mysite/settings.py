@@ -128,9 +128,9 @@ USE_TZ = True
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'myapp/static'),
+    os.path.join(BASE_DIR ,'myapp/static'),
 ]
 
 # Default primary key field type
